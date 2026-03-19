@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://tightscene.in/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.tightscene.in/</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
+<url>
+<loc>https://tightscene.in/</loc>
+<lastmod>2026-03-19</lastmod>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
 </urlset>
 ```
 
-Click **"Commit changes"** → wait 2 minutes for GitHub to deploy.
+⚠️ **Critical rules when pasting:**
+- **NO indentation/spaces** before any line
+- **NO blank line** before `<?xml`
+- **NO blank line** after `</urlset>`
+- Use **straight quotes** `"` not curly quotes `"`
 
 ---
 
-## Then Resubmit to Google
+## After Saving on GitHub:
 
-1. Go back to **Google Search Console → Sitemaps**
-2. Click the **existing sitemap** → click **"Resubmit"** or delete it and re-add:
+**Wait 2 minutes** for GitHub to deploy, then:
+
+1. Go to Search Console → Sitemaps
+2. **Delete** the existing sitemap entry
+3. **Re-add** it fresh: `https://tightscene.in/sitemap.xml`
+4. Click **Submit**
+
+---
+
+## If Error Still Persists — Skip Sitemap Entirely
+
+The sitemap error **does NOT stop Google from indexing your site.** Notice it already found **2 pages** even with the error. 
+
+Instead do this — go to Search Console → top search bar → type:
 ```
-https://tightscene.in/sitemap.xml
+https://tightscene.in/

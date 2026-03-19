@@ -7,31 +7,3 @@
 <priority>1.0</priority>
 </url>
 </urlset>
-```
-
-⚠️ **Critical rules when pasting:**
-- **NO indentation/spaces** before any line
-- **NO blank line** before `<?xml`
-- **NO blank line** after `</urlset>`
-- Use **straight quotes** `"` not curly quotes `"`
-
----
-
-## After Saving on GitHub:
-
-**Wait 2 minutes** for GitHub to deploy, then:
-
-1. Go to Search Console → Sitemaps
-2. **Delete** the existing sitemap entry
-3. **Re-add** it fresh: `https://tightscene.in/sitemap.xml`
-4. Click **Submit**
-
----
-
-## If Error Still Persists — Skip Sitemap Entirely
-
-The sitemap error **does NOT stop Google from indexing your site.** Notice it already found **2 pages** even with the error. 
-
-Instead do this — go to Search Console → top search bar → type:
-```
-https://tightscene.in/
